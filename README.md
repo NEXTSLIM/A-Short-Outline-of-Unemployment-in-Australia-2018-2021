@@ -24,3 +24,23 @@ I first wanted to provide an overall visualisation of the Australian map with co
 Code snippet to integrate state polygons with Google Maps API, unemployment rate by state in 2020 with colour gradient and map output:
 
 ![](https://user-images.githubusercontent.com/77761497/114503366-86fe1200-9c70-11eb-9566-82efb74cc008.png)
+
+Boxplot and one-way ANOVA analysis showing that there are significant differences in the 2020 unemployment rate between states:
+
+![](https://user-images.githubusercontent.com/77761497/114504362-1a841280-9c72-11eb-9648-c1f036b7ece6.png)
+
+From the map and the boxplot it can be easily observed that the states of Queensland, South Australia and Western Australia had the highest unemployment rates (7.1%, 6.9% and 6.6% respectively), followed by Tasmania, Victoria, New South Wales and Northern Territory (6.5%, 6.4%, 6.1% and 5.6% respectively) and Australian Capital Territory was the state with the lowest unemployment rate of 3.4% during 2020. 
+
+This already challenged the hypothesis we had that Victoria, due to the strict lockdowns would be the state with the highest unemployment rate during the COVID19 crisis. 
+
+Finally, I did a comparison of the unemployment rate in 2019 and 2020 per state to see whether all states had a significant increase in unemployment during the COVID19 period.
+
+![](https://user-images.githubusercontent.com/77761497/114504933-f83ec480-9c72-11eb-8fea-3b4a8277cb1f.png)
+
+The data was normally distributed, therefore it was applicable to apply a t test comparison between the years. All states, with the exception of Tasmania, had a significant increase in unemployment in 2020 compared to the year before, likely due to the COVID19 crises. 
+
+This raises an interesting difference between states. Thus, in a future project we would like to explore the questions: 
+- What is the reason for COVID19 not impacting equally across states? 
+- Is it the size of employed persons vs labour force? 
+- Perhaps the different job industries per states?
+To investigate this, we would need to combine datasources since this API did not contain information about job industries per state.
