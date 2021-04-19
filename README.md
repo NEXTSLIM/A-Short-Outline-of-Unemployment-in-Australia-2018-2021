@@ -35,7 +35,7 @@ This already challenged the hypothesis we had that Victoria, due to the strict l
 
 Finally, I did a comparison of the unemployment rate in 2019 and 2020 per state to see whether all states had a significant increase in unemployment during the COVID19 period.
 
-![](https://user-images.githubusercontent.com/77761497/114504933-f83ec480-9c72-11eb-8fea-3b4a8277cb1f.png)
+![](https://user-images.githubusercontent.com/77761497/115226769-f6816f00-a152-11eb-872d-012d9473b728.png)
 
 The data was normally distributed, therefore it was applicable to apply a t test comparison between the years. All states, with the exception of Tasmania (p>0.05 represented with ns), had a significant increase in unemployment in 2020 compared to the year before (p<0.001 represented with asterisks), likely due to the COVID19 crisis. 
 
