@@ -37,7 +37,7 @@ Finally, I did a comparison of the unemployment rate in 2019 and 2020 per state 
 
 ![](https://user-images.githubusercontent.com/77761497/115226769-f6816f00-a152-11eb-872d-012d9473b728.png)
 
-The data was normally distributed, therefore it was applicable to apply a t test comparison between the years. All states, with the exception of Tasmania (p>0.05 represented with ns), had a significant increase in unemployment in 2020 compared to the year before (p<0.001 represented with asterisks), likely due to the COVID19 crisis. 
+The data was normally distributed, therefore it was applicable to apply a paired t test comparison between the two years. All states, with the exception of Tasmania (p>0.05 represented with ns), had a significant increase in unemployment in 2020 compared to the year before (p<0.001 represented with asterisks), likely due to the COVID19 crisis. 
 
 This raises an interesting difference between states. Thus, in a future project we would like to explore the questions: 
 - What is the reason for COVID19 not impacting equally across states? 
